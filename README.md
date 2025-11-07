@@ -1,33 +1,29 @@
-# User Management Console App
+User Management Console App
 
-A simple console application for managing users.  
-This project demonstrates a clean architecture approach in C#, suitable for learning and extending to a full-stack application.
+A simple console application for managing users.
+This project demonstrates a clean architecture approach in C#, suitable for learning and extending into a full-stack application.
 
----
+Screenshot of the main menu in the console app (replace with your own screenshot).
 
-## Features
+Features
 
-- Register new users (FullName, Email, Password)
-- User login with Email and Password
-- Search users by Email or Id
-- Display all users in the system
+✅ Register new users (FullName, Email, Password)
 
----
+✅ User login with Email and Password
 
-## Architecture
+✅ Search users by Email or Id
 
-- **Model:** `User` – Defines the structure of user data
-- **Service Layer:** `UserService` – Handles user operations (Add, Get, Login)
-- **Controller:** `UserController` – Handles interaction between UI and service
-- **UI (Console):** `Program.cs` – Provides a menu for user interaction
+✅ Display all users in the system
 
-This separation of concerns makes the code maintainable and easily extendable for future Web API or database integration.
+✅ Simple validation for user input
 
----
+✅ Easily extendable for database or API integration
 
-## How to Run
+Architecture Overview
+Layer	Class / File	Responsibility
+Model	User	Defines the structure of user data
+Service	UserService	Handles user operations (Add, Get, Login)
+Controller	UserController	Handles interaction between UI and service
+UI (Console)	Program.cs	Provides a menu for user interaction
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/username/repo.git
+This separation of concerns makes the code maintainable, testable, and ready for future Web API or database integration.
