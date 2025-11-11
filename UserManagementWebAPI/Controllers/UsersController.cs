@@ -51,5 +51,11 @@ namespace UserManagementWebAPI.Controllers
             else return Ok("Login successfully!");
 
         }
+
+        public IActionResult GetAllUsers()
+        {
+            var users = _userService.GetAll();
+            return Ok(users);
+        }
     }
 }

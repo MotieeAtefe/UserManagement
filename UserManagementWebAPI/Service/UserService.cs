@@ -12,6 +12,12 @@ namespace UserManagementWebAPI.Service
             li.Add(user);
 
         }
+        public List<User> GetAll()
+        {
+            return li; 
+        }
+
+        
         public User GetUserById(int id)
         {
             var result = li.FirstOrDefault(x => x.Id == id);
