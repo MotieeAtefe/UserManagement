@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement", "UserManagement\UserManagement.csproj", "{48D43B1E-2E40-472B-86C6-7706460C2568}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagementWebAPI", "UserManagementWebAPI\UserManagementWebAPI.csproj", "{225BC244-077C-4064-B2E2-6D4E96B1D022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponyAPI", "ComponyAPI\ComponyAPI.csproj", "{4A116952-0D2C-445E-ABBE-56AF18C98E20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{225BC244-077C-4064-B2E2-6D4E96B1D022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{225BC244-077C-4064-B2E2-6D4E96B1D022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{225BC244-077C-4064-B2E2-6D4E96B1D022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A116952-0D2C-445E-ABBE-56AF18C98E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A116952-0D2C-445E-ABBE-56AF18C98E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A116952-0D2C-445E-ABBE-56AF18C98E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A116952-0D2C-445E-ABBE-56AF18C98E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
