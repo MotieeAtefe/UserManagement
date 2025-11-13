@@ -31,6 +31,15 @@ namespace ComponyAPI.Controllers
 
         public IHttpActionResult delete(int id)
         {
+            var emp = db.Departments.Find(id);
+
+            if (emp == null)
+                return NotFound();
+
+            db.Departments.Remove(emp);
+            db.SaveChanges();
+
+            return Ok("Employee deleted successfully");
         }
          
     }
